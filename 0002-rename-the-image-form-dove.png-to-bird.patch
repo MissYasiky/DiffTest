@@ -1,0 +1,17 @@
+From 644d34559854d7b02b85c60b5744d135bcc4fd66 Mon Sep 17 00:00:00 2001
+From: MissYasiky <gzxieyunjia@gmail.com>
+Date: Tue, 26 Mar 2019 22:03:14 +0800
+Subject: [PATCH 2/4] rename the image form dove.png to bird
+
+---
+ dove.png => bird.png | Bin
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename dove.png => bird.png (100%)
+
+diff --git a/dove.png b/bird.png
+similarity index 100%
+rename from dove.png
+rename to bird.png
+-- 
+2.17.2 (Apple Git-113)
+

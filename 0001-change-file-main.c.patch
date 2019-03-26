@@ -1,0 +1,36 @@
+From 1ac06cae873d4d985f42c8ffb70555615a99af7e Mon Sep 17 00:00:00 2001
+From: MissYasiky <gzxieyunjia@gmail.com>
+Date: Tue, 26 Mar 2019 22:01:22 +0800
+Subject: [PATCH 1/4] change file: main.c
+
+---
+ main.c | 13 ++++++++++++-
+ 1 file changed, 12 insertions(+), 1 deletion(-)
+
+diff --git a/main.c b/main.c
+index 922b041..d617c89 100644
+--- a/main.c
++++ b/main.c
+@@ -1,6 +1,17 @@
+ #include <stdio.h>
+ 
++void printArray(int array[], int count);
++
+ int main () {
+-	printf("Hello world!");
++	int a[] = {22,4,8,32,19,52,1,77,0,2,25};
++	int count = sizeof(a)/sizeof(a[0]);
++	printArray(a, count);
+ 	return 0;
++}
++
++void printArray(int array[], int count) {
++	for (int i = 0; i < count; i++) {
++		printf("%d ", array[i]);
++	}
++	printf("\n");
+ }
+\ No newline at end of file
+-- 
+2.17.2 (Apple Git-113)
+

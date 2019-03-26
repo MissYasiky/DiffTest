@@ -1,0 +1,17 @@
+From 0d1c4845a0e0937c8d2dbd0621eab8ca70790749 Mon Sep 17 00:00:00 2001
+From: MissYasiky <gzxieyunjia@gmail.com>
+Date: Tue, 26 Mar 2019 22:09:16 +0800
+Subject: [PATCH 4/4] remove the file main.c to new folder
+
+---
+ main.c => newFolder/main.c | 0
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+ rename main.c => newFolder/main.c (100%)
+
+diff --git a/main.c b/newFolder/main.c
+similarity index 100%
+rename from main.c
+rename to newFolder/main.c
+-- 
+2.17.2 (Apple Git-113)
+
